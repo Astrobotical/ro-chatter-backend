@@ -29,7 +29,6 @@ AppData.initialize().then(() => {
   console.log(error);
 });
 
-//AppData.isInitialized ? console.log('Database connected') : console.log('Database connection failed');
 // Middleware
 app.use(bodyParser.json());
 app.use(errorHandler);
